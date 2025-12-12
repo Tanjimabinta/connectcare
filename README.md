@@ -1,5 +1,7 @@
 # ConnectCare – Doctor Appointment Booking Platform
 
+Live Website: https://connect-care-web.netlify.app/
+
 ConnectCare is a full-stack web application that allows users to browse doctors, view doctor details, and book appointments online. The project follows a clear client–server architecture using modern web technologies.
 
 ---
@@ -26,22 +28,24 @@ ConnectCare is a full-stack web application that allows users to browse doctors,
 
 ## Project Structure
 
+## Project Structure
+
 connectcare/
-├── client/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── routes/
-│ │ ├── assets/
-│ │ └── App.jsx
-│ └── package.json
-│
-├── server/
-│ ├── index.js
-│ ├── package.json
-│ └── vercel.json
-│
-└── README.md
+|-- client/
+| |-- src/
+| | |-- components/
+| | |-- pages/
+| | |-- routes/
+| | |-- assets/
+| | `-- App.jsx
+|   `-- package.json
+|
+|-- server/
+| |-- index.js
+| |-- package.json
+| `-- vercel.json
+|
+`-- README.md
 
 ---
 
@@ -85,7 +89,7 @@ VITE_FIREBASE_AUTH_DOMAIN=your_firebase_domain
 
 ### Clone the Repository
 
-git clone https://github.com/your-username/connectcare.git  
+git clone https://github.com/Tanjimabinta/connectcare.git  
 cd connectcare
 
 ---
